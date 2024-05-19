@@ -3,52 +3,42 @@ test-cases:
   - summary: |
        Проверка добавления товара в корзину
     status: pass
-
 test-cases:
   - summary: |
        Проверка показа описания товара
     status: pass
-
 test-cases:
   - summary: |
        Проверка фильтров поиска товаров
     status: pass
-
 test-cases:
   - summary: |
        Проверка просмотра каталога после добавления товара в корзину
     status: pass
-
 test-cases:
   - summary: |
        Проверка xss уязвимости сайта
     status: pass
-
   test-cases:
   - summary: |
        Проверка доступности сайта на разных устройствах
     status: pass
-
   test-cases:
   - summary: |
        Проверка кроссбраузерности сайта
     status: pass
-
   test-cases:
   - summary: |
        Проверка доступности сайта из разных стран
     status: pass
-
   test-cases:
   - summary: |
        Проверка нагрузоустойчивости сайта
     status: fail
-
   test-cases:
   - summary: |
        Проверка сохранности разметки сайта при смене языка
     status: fail
-    
 bugreports:
   - summary: |
       Не работает кнопка входа на мобильных устройствах и планшетах
