@@ -3,5 +3,63 @@ test-cases:
   - summary: |
        Проверка добавления товара в корзину
     status: pass
+
+test-cases:
+  - summary: |
+       Проверка показа описания товара
+    status: pass
+
+test-cases:
+  - summary: |
+       Проверка фильтров поиска товаров
+    status: pass
+
+test-cases:
+  - summary: |
+       Проверка просмотра каталога после добавления товара в корзину
+    status: pass
+
+test-cases:
+  - summary: |
+       Проверка xss уязвимости сайта
+    status: pass
+
+  test-cases:
+  - summary: |
+       Проверка доступности сайта на разных устройствах
+    status: pass
+
+  test-cases:
+  - summary: |
+       Проверка кроссбраузерности сайта
+    status: pass
+
+  test-cases:
+  - summary: |
+       Проверка доступности сайта из разных стран
+    status: pass
+
+  test-cases:
+  - summary: |
+       Проверка нагрузоустойчивости сайта
+    status: fail
+
+  test-cases:
+  - summary: |
+       Проверка сохранности разметки сайта при смене языка
+    status: fail
     
-bugreports: []
+bugreports:
+  - summary: |
+      Не работает кнопка входа на мобильных устройствах и планшетах
+    environment: |
+      Ссылка на билд/коммит/версия ПО и всего окружения
+    steps-to-reproduce: |
+      1. Открыть сайт на мобильном устройстве
+      2. Нажать на кнопку "Login in to comment"
+      3. Открыть сайт на планшете
+      4. Нажать на кнопку "Log in to comment"
+    expected-result: |
+      Открывается окно авторизации как на desktop версии
+    actual-result: |
+      Окно авторизации не открылось
