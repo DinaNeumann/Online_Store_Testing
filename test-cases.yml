@@ -4,7 +4,7 @@
   requirement: |
     При нажатии на кнопку "В корзину" товар добавляется в корзину, при нажатии на кнопку "Корзина" можно просмотреть ее содержимое
   prerequisites:
-    В корзину пользователя добавлены товары
+    no-data
   test-data: |
     no-data
   steps:
@@ -19,7 +19,7 @@
   requirement: |
    При открытии страницы товара открывается описание товара
   prerequisites:
-   Открыт каталог товаров
+   no-data
   test-data: |
    no-data
   steps:
@@ -33,7 +33,7 @@
   requirement: |
    При настройке фильтров категории отображаются товары соотвествующей категории
   prerequisites:
-   Открыт каталог товаров с пустыми фильтрами
+   no-data
   test-data: |
    no-data
   steps:
@@ -46,7 +46,7 @@
   requirement: |
    После добавления товара в корзину продолжается просмотр каталога
   prerequisites:
-   Открыт каталог товаров
+   no-data
   test-data: |
    no-data
   steps:
@@ -59,7 +59,7 @@
   requirement: |
    При написании скрипта в поле поиска появится надпись "Nothing found!"
   prerequisites:
-   Открыт каталог товаров
+   Оno-data
   test-data: |
    no-data
   steps:
@@ -72,7 +72,7 @@
   requirement: |
    Сайт открывается на разных устройствах
   prerequisites:
-   Открыт каталог товаров
+   Оno-data
   test-data: |
    no-data
   steps:
@@ -87,7 +87,7 @@
   requirement: |
    Сайт открывается в разных браузерах
   prerequisites:
-   Открыт каталог товаров
+   no-data
   test-data: |
    no-data
   steps:
@@ -102,7 +102,7 @@
   requirement: |
    Сайт открывается в разных странах
   prerequisites:
-   Открыт каталог товаров
+   no-data
   test-data: |
    no-data
   steps:
@@ -117,7 +117,7 @@
   requirement: |
    Сайт исправно работает при увеличении нагрузки
   prerequisites:
-   Открыт каталог товаров
+   no-data
   test-data: |
    no-data
   steps:
@@ -131,7 +131,7 @@
   requirement: |
    При смене языка сайт остается полностью сохраняет разметку
   prerequisites:
-   Открыт каталог товаров
+   no-data
   test-data: |
    no-data
   steps:
